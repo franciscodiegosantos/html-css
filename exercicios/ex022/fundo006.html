@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de imagem de fundo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
+            height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
         }
 
         main {
@@ -29,7 +42,7 @@
 <body>
     <main>
         <h1>Teste de imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum dolores, quo tenetur totam tempora ducimus ad magni itaque et? Magni, similique. Nulla incidunt earum deleniti aliquid velit sed dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad expedita, omnis, veniam assumenda nihil labore at incidunt nulla quo sequi quaerat. Omnis delectus quibusdam quia iste esse provident debitis consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi assumenda nulla rerum neque, modi aliquid, sapiente aliquam natus ex delectus ea exercitationem voluptate atque tempore ab accusantium voluptatem soluta nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum dolores, quo tenetur totam tempora ducimus ad magni itaque et? Magni, similique. Nulla incidunt earum deleniti aliquid velit sed dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad expedita, omnis, veniam assumenda nihil labore at incidunt nulla quo sequi quaerat. Omnis delectus quibusdam quia iste esse provident debitis consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi assumenda nulla rerum neque, modi aliquid, sapiente aliquam natus ex delectus ea exercitationem voluptate atque tempore ab accusantium voluptatem soluta nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maiores ullam expedita error dicta? Laborum ratione consectetur nulla iusto totam recusandae, aliquam, minima, ipsum voluptatem eos dolore amet praesentium architecto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est laudantium at cupiditate, nihil illum dolore quisquam? Necessitatibus error quos voluptate optio incidunt eius perspiciatis maxime sunt repellat? Quis, dolores blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae enim perferendis dolorum sit illum cupiditate itaque quae. Dolor reiciendis similique maxime earum nostrum numquam autem odit vero blanditiis sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus autem fugit placeat tempore possimus maiores. Voluptas, esse autem debitis commodi alias explicabo corrupti voluptates, quaerat nulla quasi rerum cum enim? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda in, quia tempore, eligendi porro laboriosam quod minima nam molestiae odit quasi at voluptas aut, deleniti debitis adipisci sunt expedita dolore!</p>
     </main>
 </body>
 </html>
