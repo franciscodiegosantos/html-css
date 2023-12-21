@@ -1,0 +1,28 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header{
+    @include flexCenter();
+    background: $primary;
+    color: white;
+    button{
+        background: $secondary;
+        &:hover{
+            background: yellow;
+            &::after{
+                content: "Testeee";
+            }
+        }
+        
+    }    
+    p{
+        color: black;
+    }
+    h1{
+        color: purple;
+    }
+}

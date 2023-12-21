@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(178, 224, 222, 0.705);
+  color: white;
+}
+header button {
+  background: red;
+}
+header button:hover {
+  background: yellow;
+}
+header button:hover::after {
+  content: "Testeee";
+}
+header p {
+  color: black;
+}
+header h1 {
+  color: purple;
+}
+
+.contato {
+  background: rgba(178, 224, 222, 0.705);
+}/*# sourceMappingURL=index.css.map */
