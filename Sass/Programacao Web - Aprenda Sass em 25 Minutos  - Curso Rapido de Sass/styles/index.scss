@@ -3,5 +3,7 @@
 @import './header';
 
 .contato{
-    background: $primary;
+    @include flexCenter(column, yellow);
+    /* background: $primary; */
+    @extend header;
 }
