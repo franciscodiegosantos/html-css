@@ -1,0 +1,38 @@
+.container {
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 6fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5px;
+}
+
+.topo {
+    background-color: sandybrown;
+    text-align: center;
+    grid-area: 1 / 1 / 2 / -1;
+}
+
+.menu {
+    background-color: sandybrown;
+    text-align: center;
+    grid-area: 2 / 1 / 2 / -1;
+}
+
+.principal {
+    background-color: sandybrown;
+    text-align: center;
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.secundario {
+    background-color: sandybrown;
+    text-align: center;
+    grid-area: 3 / 3 / 4 / -1;
+}
+
+.rodape {
+    background-color: sandybrown;
+    text-align: center;
+    grid-area: 4 / 1 / 5 / -1;
+}
